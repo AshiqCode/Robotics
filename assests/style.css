@@ -1,0 +1,340 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+        padding: 0px;
+        margin: 0px;
+        background-image: url(images/5166950.jpg);
+        color: white;
+        text-transform: capitalize;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.mainbox{
+    background-image: url(images/3d-girl-with-futuristic-vr-glasses_360032-1697.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+.stylishtxt{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fff,
+    0 0 30px #059ef7, 
+    0 0 40px #059ef7,
+    0 0 50px #059ef7;       
+}
+.name{
+    font-size: 70px;
+    margin-left: 40px;
+    position: relative;
+    top: 60px;
+}
+.intro{
+    margin-top: 100px;
+    margin-left: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 480px;
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.Join-Us{
+    width: 35%;
+    font-size: 23px;
+    margin-top: 40px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #059ef7;
+    padding: 5px;
+    border: solid transparent;
+    border-radius: 4px;
+}
+.Set-Target{
+    width: 35%;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    border: solid #059ef7;
+    border-radius: 4px;
+}
+.Set-Target:hover{
+    background-color: #059ef7;
+}
+
+.introflx{
+    display: flex;
+    width: 97vw;
+}
+.introflx div:first-child img{
+    height:400px;
+    width: 400px;
+    margin: 20px 0px 0px 20px;
+}
+.Skills{
+    font-size: 40px;
+    margin: 50px 0px 20px 0px;
+}
+
+.Skillspara{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.startNow{
+    width: 40%;
+    font-size: 23px;
+    margin-top: 40px;
+    float: right;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    border: solid #059ef7;
+    border-radius: 0px;   
+   
+}
+.startNow:hover{
+    background-color: #059ef7;
+}
+.subscriptionpara{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.subscriptionDiv{
+    display: flex;
+}
+.subction{
+    width: 30%;
+    border: solid white 1px;
+    margin: 20px;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+}
+.icons{
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+.pricing{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+hr{
+    margin-top: 10px;
+}
+
+.price{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.offers{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.buyNow{
+        width: 80%;
+        font-size: 23px;
+        margin-top: 40px;
+        text-transform: uppercase;
+        color: white;
+        background-color: #059ef7;
+        padding: 5px;
+        border: solid #059ef7;
+        border-radius: 4px;       
+}
+.postdiv{
+    margin: 20px 0px 20px 20px;
+
+}
+.post-sample{
+    font-size: 40px; 
+}
+.username{
+    color: #d5d5d5;
+    margin-top: 5px;
+}
+.username a{
+    color: #059ef7;
+
+}
+.post{
+    margin: 20px 0px 20px 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    border-bottom: solid white 1px;
+    padding: 8px;
+}
+.lootBox{
+    display: flex;
+    justify-content: center;
+}
+.lootBoxImg{
+height: 100%;
+width: 80%;
+}
+.lootboxchild:last-child{
+    width: 30%;
+    margin: 20px;
+    padding: 15px 10px 10px 10px;
+    text-align: justify;
+}
+
+.lootboxchild:first-child{
+    width: 30%;
+    border-right: solid white 1px;
+    margin: 20px;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+}
+.lootBoxPara{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.read{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.Nextbttn{
+    width: 99%;
+    margin-top: 70px;
+    font-size: 23px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    padding: 5px;
+    border: solid #059ef7;
+    border-radius: 0px;   
+   
+}
+.Nextbttn:hover{
+    background-color: #059ef7;
+}
+.contact{
+    /* background-color: rgba(0, 183, 255,0.2); */
+    border: solid white;
+    padding: 15px;
+    width: 50%;
+    margin: 10px auto;
+}
+.contactUs{
+    margin-left: 20px;
+    font-size: 34px;
+}
+.contact div{
+ margin-top: 10px;  
+ display: flex; 
+ margin-left: 20px;
+} 
+.contact div div{
+    width: 130px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cntinp{
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+    border: solid transparent 1px;
+    border-bottom: solid white 1px;
+    color: white;
+}
+
+.Submitmsg{
+    width: 30%;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #059ef7;
+    padding: 5px;
+    border: solid #059ef7;
+    border-radius: 0px;   
+   
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.services{
+    padding: 10px;
+    width: 28%;
+}
+.provide{
+    font-size: 18px;
+    font-family: cursive;
+}
+
+ul{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+li{
+margin-top: 4px;
+font-family: 'Courier New', Courier, monospace;
+}
+.social{
+    padding: 10px;
+    width: 28%;
+}
+.mesgpara{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+}
+.marks{
+    padding: 10px;
+}
+.cntsnk{
+    margin-top: 5px;
+}
+.cnt{
+    margin-top: 8px;
+}
+.subscribe{
+    width: 60%;
+    margin-top: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #019410;
+    padding: 5px;
+    border: solid #019410;
+    border-radius: 0px;   
+   
+}
+
+.footertxt{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+    
+}
